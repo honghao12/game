@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="telephone=no" name="format-detection">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta property="wb:webmaster" content="c51923015ca19eb1">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" name="viewport">
+
+<link href="style.css" type="text/css" rel="stylesheet" />
+<title>play</title>
+<script language="javascript" type="text/javascript" src="jquery-1.10.1.min.js"></script>
+<script language="javascript" type="text/javascript" src="playJs.js"></script>
+</head>
+
+<body>
+	<audio id="catch">
+	  <source src="/smallGame2/ms/right.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="error">
+	  <source src="/smallGame2/ms/error.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="start">
+	  <source src="/smallGame2/ms/startgame.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="warn">
+	  <source src="/smallGame2/ms/warn.mp3" type="audio/mpeg">
+	</audio>
+	
+    <div id="content">
+        <div id="rule" class="rule">
+            <img src="images/rule1.png" alt=""  width="320" height="380"  />
+        </div>
+        <div id="play" class="play">
+        	<img src="images/start.png" alt=""  width="180" height="90"  />
+        </div>
+        <div id="speed" class="speed">
+        	<img src="images/speed.png" alt=""  width="200" height="90"  />
+        </div>
+        <div id="result" class="result">
+            <i class="ps"></i>
+            <i class="fs"></i>
+            <div class="text1"></div>
+            <img src="images/result.png" alt=""  width="300" height="300"  />
+            <img  class="videobum" id="videobum" src="images/videobum.png" alt=""  width="100" height="60"  />
+        </div>
+        <video class="video1" id="video1" width="320" height="240" controls>
+          <source src="/smallGame2/ms/video2.mp4" type="video/mp4">
+                          您的浏览器不支持 HTML5 video 标签。
+        </video>
+    </div>
+</body>
+</html>
